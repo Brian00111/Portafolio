@@ -285,7 +285,7 @@ h2{
                 50% {border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%}   
                 100% {border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%}                 
                   
-              }
+            }
         }  
     }
 
@@ -681,7 +681,7 @@ h2{
                 width: 100%;
                 height: 100%;
                 margin: auto;
-                  
+                padding: 1em 2em;
             }
 
         }
@@ -828,12 +828,22 @@ h2{
         }
     }
 
-    @media(min-width:580px){
+    @media(max-width:580px){
         &{
-            padding:0; 
+            padding:1.5em 0; 
         }
         form{
             padding:0;
+
+            .content-input{
+                width: 90%;
+                margin: auto;
+                margin-bottom: 2em;
+            }   
+        }
+        button{
+            width: 90%;
+            margin: auto;
         }
     }
 }
@@ -988,6 +998,7 @@ footer{
     align-items: center;
     padding: 2em;
     margin-top: 2.5em;
+    
 
     .footer-logo{
         max-width: 150px;
@@ -997,12 +1008,18 @@ footer{
         img{
             height:100%;
         }
+
+        @media(max-width:650px){
+            max-width: 150px;
+            width: 20%;
+            height: 100%;
+        }
     }
 
     .social-networks{
         text-align:center;
         h3{
-            font-size: 1.5em;
+            font-size: 1em;
             padding-bottom: 0.5em;
         }
 
@@ -1012,8 +1029,8 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2em;
-        padding: 0.6em;
+        font-size: 1.5em;
+        padding: 0em;
         
         a{
             color:white;
@@ -1085,15 +1102,57 @@ footer{
     }
 }
 
-@media (max-width:950px){
+@media (max-width:500px){
     .main-doc__bienvenida{
         .bienvenida--img{
             .img{
-                width: 420px;
-                height: 420px;
+                width: 280px;
+                height: 280px;
+            }
+        }
+        .bienvenida--texto{
+
+            margin-top: 0;
+
+            p{
+                font-size: 1.2em;
+            }
+            h1{
+                font-size: calc(1.5em + 2vw);
+            }
+            .descargar-cv{
+                margin:.5em;
             }
         }
     } 
+    .main-doc__portafolio{
+        .container{
+            p {
+                font-size: 1em;
+            }
+
+            .portafolio-grid{
+                .proyecto{
+                    height:210px;
+                }
+            }
+        }
+        
+    } 
+    footer{
+        flex-wrap: wrap;
+
+        a[href="contact.html"]{
+            width: 150px;
+            display: flex;
+            padding: 0.9em 1.6em;
+            margin: 1em;
+        }
+
+        .social-networks{
+            width: 180px;
+        }
+    }
 }
 
 @media(min-width:1050px){
