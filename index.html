@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js" defer></script>
+    <title>BDDeveloper | Desarrollador Web</title>
+</head>
+<body>
+
+    <header class="encabezado" id="encabezado">
+        <div class="contenido-flex">
+                <div class="encabezado--logo">
+                    <a href="#">
+                        <img loading="lazy"  src="img/logo.svg" alt="Logo Brian Diaz Developer">
+                    </a>
+                </div>
+                <div class="menu" id="menu"><span></span><span></span><span></span></div>
+                
+        </div>
+
+        <nav id="nav--mobile" class="nav encabezado--nav">
+            <a href="#" rel="noopener noreferrer" style="cursor:not-allowed">Inicio</a>
+            <a href="#acerca-de-mi" rel="noopener noreferrer">Sobre Mi</a>
+            <a href="#portafolio" rel="noopener noreferrer">Portfolio</a>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">Contactame</a>
+        </nav>
+
+        <nav id="nav--pc" class="nav encabezado--nav__pc">
+            <a href="#" rel="noopener noreferrer">Inicio</a>
+            <a href="#acerca-de-mi" rel="noopener noreferrer">Sobre Mi</a>
+            <a href="#portafolio" rel="noopener noreferrer">Portfolio</a>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">Contactame</a>
+        </nav>
+        
+    </header>
+
+    <main id="main-doc" class="main-doc">
+
+        <section class="main-doc__bienvenida" id="inicio">
+           <div class="container">
+               <div class="bienvenida--img"><div class="img"></div></div>
+
+                <div class="bienvenida--texto">
+                    <p>
+                        Hola, soy Brian Diaz &#128075
+                    </p>
+                    <h1>
+                        Desarrollador Front End y Diseñador 
+                    </h1> 
+
+                    <div class="descargar-cv">
+                        <button>
+                            <span class="button_top"> Descargar Resumen
+                            </span>
+                        </button>
+    
+                    </div>
+                </div>
+                
+            </div> 
+            
+            <div class="tema-color" >
+                <span class="tema">Tema:</span>
+                <label class="switch">
+                    <input type="checkbox" onclick="changeBack()" data-color="blanco">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+        </section>
+
+        <section class="main-doc__portafolio" id="portafolio">
+            <div class="container">
+                <h2>Mis Proyectos</h2>      
+                <p>Combinando buen diseño y creatividad en cada uno</p>
+
+                <div class="portafolio-grid">
+                    <div class="proyecto proyecto--programacion">
+                        <div class="detalles">
+                            <a href="https://brian00111.github.io/Buscador-Filtro-de-autos/" target="_blank" class="link"></a>
+                            <p>PROYECT</p>              
+                            <sub>DISEÑO,WEB</sub>
+
+                            <a href="https://github.com/Brian00111/Buscador-Filtro-de-autos" target="_blank" rel="noopener noreferrer" class="code-proyect">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proyecto proyecto--programacion">
+                        <div class="detalles">
+                            <a href="https://brian00111.github.io/Proyect-Enviar-Email/?" target="_blank" class="link"></a>
+                            <p>PROYECT</p>              
+                            <sub>DISEÑO,WEB</sub>
+
+                            <a href="https://github.com/Brian00111/Proyect-Enviar-Email" target="_blank" rel="noopener noreferrer" class="code-proyect">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proyecto proyecto--programacion">
+                        <div class="detalles">
+                            <a href="https://brian00111.github.io/Binary-to-Decimal-Converter/" target="_blank" class="link"></a>
+                            <p>PROYECT</p>              
+                            <sub>DISEÑO,WEB</sub>
+                            
+                            <a href="https://github.com/Brian00111/Binary-to-Decimal-Converter" target="_blank" rel="noopener noreferrer" class="code-proyect">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="proyecto proyecto--diseño"></div>
+                    <div class="proyecto proyecto--diseño"></div>
+                    <div class="proyecto proyecto--diseño"></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="main-doc__skills">
+            <div class="container">
+                <h2>Mis habilidades</h2>
+
+                <div class="container-skills">
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/html.svg" alt="html 5">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/css.svg" alt="css 3">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/javascript.svg" alt="Javascript">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/tailwindcss.svg" alt="tailwind">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/sass.svg" alt="preprocesador sass">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/jquery.svg" alt="jquery">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/wordpress.svg" alt="Wordpress">
+                    </div>
+                    <div class="skill">
+                        <img loading="lazy"  src="img/skills/skills2/git.svg" alt="GIt">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="main-doc__acerca-de-mi" id="acerca-de-mi">
+            <div class="container">
+                <div class="content-text">
+                    <h2>¿Quien Soy?</h2>
+                    <p>Front End Developer</p>
+
+
+                    <p>
+                        Nací en Caracas Venezuela en el año 2002. Al poco tiempo de conseguir un trabajo como técnico de móviles, empujado por una gran curiosidad por el mundo de la tecnología, tuve la oportunidad de crear una página web para el mismo negocio, esa experiencia me hizo saber que el mundo del desarrollo web era mi pasión. Mi objetivo es llegar a ser un Full Stack Developer.
+                    </p>
+                    
+                </div>
+      
+                <div class="hobbies">
+                    <h2>Cosas que amo</h2>
+
+                    <div class="hobbies--grid">
+                        <div class="hobbie">
+                            <div class="hobbie--img">
+                                <img loading="lazy"  src="img/pencil.png" alt="logo de un lapiz">
+                            </div>
+                            <div class="hobbie--text">
+                                <h5>DIBUJO</h5>
+                                <p>
+                                    Desde muy niño eh sentido fuerte impulso por el arte en general, dibujando diariamente hasta tener un nivel bastante alto actualmente.
+                                    Puedes ver mis dibujos <a href="https://www.instagram.com/alexanderdiaz2000_art/" target="_blank" rel="noopener noreferrer"><i><u>aqui</u></i></a> 
+                                </p>
+                           
+                            </div>
+                        </div>
+
+                        <div class="hobbie">
+                            <div class="hobbie--img">
+                                <img loading="lazy"  src="img/game.png" alt="logo de un lapiz">
+                            </div>
+                            <div class="hobbie--text">
+                                <h5>JUEGOS</h5>
+                                <p>
+                                    El hobbie que mas amo sin lugar a duda es llegar de un dia bastante pesado a jugar con amigos en cualquier juego online,
+                                    Preferiblemente Call of Duty  &#128518. En un futuro no muy lejano me gustaria crear mi propio juego.
+                                </p>
+                           
+                            </div>
+                        </div>
+
+                        <div class="hobbie">
+                            <div class="hobbie--img">
+                                <img loading="lazy"  src="img/music.png" alt="logo de un lapiz">
+                            </div>
+                            <div class="hobbie--text">
+                                <h5>MUSICA</h5>
+                                <p>
+                                    La musica siempre ah sido pieza fundamental en mi vida al punto de no poder hacer casi nada sin tener buena musica en mis oidos.
+                                    Mis generos preferidos son el Rock y techo House y más.
+                                </p>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="ilustracion"></div>               
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="#">
+                <img loading="lazy"  src="img/logo-white.svg" alt="Logo Brian Diaz Developer">
+            </a>
+        </div>
+
+        <div class="social-networks">
+        <h3>Hablamos?</h3>
+
+           <p>Copyright © 2021. All rights are reserved</p>
+           
+           <div class="social-links">
+            <a href="https://github.com/Brian00111" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 64 64"><path fill="currentColor" d="M32 0C14 0 0 14 0 32c0 21 19 30 22 30c2 0 2-1 2-2v-5c-7 2-10-2-11-5c0 0 0-1-2-3c-1-1-5-3-1-3c3 0 5 4 5 4c3 4 7 3 9 2c0-2 2-4 2-4c-8-1-14-4-14-15c0-4 1-7 3-9c0 0-2-4 0-9c0 0 5 0 9 4c3-2 13-2 16 0c4-4 9-4 9-4c2 7 0 9 0 9c2 2 3 5 3 9c0 11-7 14-14 15c1 1 2 3 2 6v8c0 1 0 2 2 2c3 0 22-9 22-30C64 14 50 0 32 0z"/></svg>
+            </a>
+            <a href="https://codepen.io/BrianD2020" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 0 1-.006.083l-.005.028l-.011.053l-.01.031a.443.443 0 0 1-.017.047l-.014.03a.78.78 0 0 1-.021.043l-.019.03a.57.57 0 0 1-.08.1l-.026.025a.602.602 0 0 1-.036.03l-.029.022l-.01.008l-6.782 4.522a.637.637 0 0 1-.708 0L4.864 14.79l-.01-.008a.599.599 0 0 1-.065-.052l-.026-.025l-.032-.034l-.021-.028a.588.588 0 0 1-.067-.11l-.014-.031a.644.644 0 0 1-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 0 1-.006-.083V9.739a.58.58 0 0 1 .006-.083l.005-.027l.011-.054l.01-.03a.574.574 0 0 1 .12-.217l.031-.034l.026-.025a.62.62 0 0 1 .065-.052l.01-.008l6.782-4.521a.638.638 0 0 1 .708 0l6.782 4.521l.01.008l.03.022l.035.03c.01.008.017.016.026.025a.545.545 0 0 1 .08.1l.019.03a.633.633 0 0 1 .021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 0 1 .006.083zM12 0C5.373 0 0 5.372 0 12c0 6.627 5.373 12 12 12c6.628 0 12-5.372 12-12c0-6.627-5.372-12-12-12m0 10.492L9.745 12L12 13.51L14.255 12zm.638 4.124v2.975l4.996-3.33l-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12z" fill="currentColor"/></svg>
+            </a>
+                
+            <a href="https://www.linkedin.com/in/briandiazdesarrolladorweb/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699v3.699z" fill="currentColor"/></svg>
+            </a>
+            </div>
+        </div>
+        <a href="contact.html" target="_blank" rel="noopener noreferrer">Hablemos <span class="iconify" data-icon="bytesize:arrow-right"></span></a>
+    </footer>
+
+</body>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</html>
