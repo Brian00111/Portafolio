@@ -509,13 +509,28 @@ h2{
                 
             }
             .proyecto:nth-child(2){
-                background: url(../img/proyects/email.png);
+                background: url(../img/proyects/calculadora.png);
+                background-size: cover;
+                background-position: center;
+               p{
+                color:white;
+               }
+                
+            }
+            .proyecto:nth-child(3){
+                background: url(../img/proyects/border-radius.png);
                 background-size: cover;
                 background-position: center;
                 
             }
-            .proyecto:nth-child(3){
-                background: url(../img/proyects/bin2dec.png);
+            .proyecto:nth-child(4){
+                background: url(../img/proyects/bin.png);
+                background-size: cover;
+                background-position: center;
+                
+            }
+            .proyecto:nth-child(5){
+                background: url(../img/proyects/clima.png);
                 background-size: cover;
                 background-position: center;
                 
