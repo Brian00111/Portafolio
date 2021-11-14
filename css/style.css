@@ -178,6 +178,8 @@ body.dark .main-doc__portafolio .container p { color: #999797; }
 
 .main-doc__portafolio .container .portafolio-grid .proyecto:nth-child(5) { background: url(../img/proyects/clima.png); background-size: cover; background-position: center; }
 
+.main-doc__portafolio .container .portafolio-grid .proyecto:nth-child(6) { background: url(../img/proyects/buscadorImagenes.png); background-size: cover; background-position: center; }
+
 @media (min-width: 1290px) { .main-doc__portafolio .container .portafolio-grid { -ms-grid-columns: (minmax(300px, 1fr))[auto-fit]; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); width: 80%; gap: 4em; margin: auto; }
   .main-doc__portafolio .container .portafolio-grid .proyecto { height: 330px; } }
 
